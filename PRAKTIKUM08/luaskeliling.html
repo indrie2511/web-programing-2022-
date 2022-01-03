@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUAS dan KELILING LINGKARAN</title>
+</head>
+<body>
+    <input type="text" id="jari">
+    <button id="luas" onclick="hitungLuas()">Hitung Luas</button>
+    <button id="kel" onclick="hitungKel()">Hitung Keliling</button>
+    <h1>Hasil = </h1>
+    <h2 id="hasil"></h2>
+
+    <script>
+        function hitungLuas(){
+            let jari_jari = Number(document.getElementById("jari").value);
+            let phi = 3.14
+            let rumusluas = phi*jari_jari*jari_jari
+            document.getElementById("hasil").innerHTML = rumusluas
+        }
+        function hitungKel(){
+            let jari_jari = Number(document.getElementById("jari").value);
+            let phi = 3.14 
+            let rumuskel = 2 * phi * jari_jari
+            document.getElementById("hasil").innerHTML = rumuskel
+
+        }
+    </script>
+</body>
+</html>

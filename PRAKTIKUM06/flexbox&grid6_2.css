@@ -1,0 +1,31 @@
+nav{
+    background-color: pink;
+    width: 250px;
+    height: 650px;
+ }
+body{
+     display: flex;
+ }
+header{
+    background-color: rgb(221, 206, 156);
+    width: 900px;
+    height: 100px;
+}
+.contoh{
+    display: flex;
+}
+article{
+    background-color: white;
+    width: 600px;
+    height: 450px;
+}
+aside{
+    background-color: aqua;
+    width: 300px;
+    height: 450px;
+}
+footer{
+    background-color: rgb(221, 206, 156);
+    width: 900px;
+    height: 100px;
+}

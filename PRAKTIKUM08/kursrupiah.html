@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Kurs Rupiah</title>
+</head>
+<body>
+    <input type="text" id="dollar">
+    <button id="dollar" onclick="hitungdollar()">Hitung Dollar</button>
+    <h1> Hasil =</h1>
+    <h2 id="hasil"></h2>
+
+    <script>
+            function hitungdollar(){
+            let dollar = Number(document.getElementById("dollar").value);
+            let rupiah = 14650
+            let kurs = dollar * rupiah
+            document.getElementById("hasil").innerHTML = kurs    
+        }
+    </script>
+
+
+</body>
+</html>

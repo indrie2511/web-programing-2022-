@@ -1,0 +1,57 @@
+.project{
+    margin: 15px 20px;
+    position: static;
+}
+    
+.pink{
+    background-color: #f06292;
+    color: #f06292;
+    float: left;
+    padding: 0px 60px;
+    border: 2px solid black;
+}
+
+.merah{
+    background-color: #ff6624;
+    color: #ff6624;
+    padding: 0px 460px;
+    float: right;
+    border: 2px solid black;
+}
+
+.ungu{
+    background-color: #ce93d8;
+    color: #ce93d8;
+    float: left;
+    padding: 130px 60px;
+    margin-top: 15px;
+    margin-right: 20px;
+    border: 2px solid black;
+}
+
+.kuning{
+    background-color: #ffee58;
+    color: #ffee58;
+    float: left;
+    padding: 130px 350px;
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+.hijau{
+    background-color: #43a047;
+    color: #43a047;
+    float: right;
+    padding: 130px 60px;
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+.orange{
+    background-color: #ff6f00;
+    color: #ff6f00;
+    position: absolute;
+    margin-top: 460px;
+    padding: 0px 571px;
+    border: 2px solid black;
+}

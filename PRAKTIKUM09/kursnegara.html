@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kurs - Indrie Anastasya</title>
+</head>
+
+<body>
+  <table style="text-align: center; border: 1px solid rgb(12, 80, 226);">
+    <tr>
+      <td for="masukanNilai">Masukan Nilai</td>
+      <td>Valas</td>
+      <td>rupiah</td>
+    </tr>
+    <tr>
+      <td><input id="masukanNilai" type="number" onchange="ubahMenjadiRupiah()"></td>
+      <td>
+        <select id="valas">
+          <option value="dollar-us">Dollar US</option>
+          <option value="dollar-singapore">Dollar Singapore</option>
+          <option value="ringgit-malaysia">Ringgit Malaysia</option>
+          <option value="Yen-jepang">Yen Jepang</option>
+          <option value="euro">Euro</option>
+          <option value="riyal-arab-saudi">Riyal Arab saudi</option>
+        </select>
+      </td>
+      <td><input id="rupiah" type="number"></td>
+    </tr>
+
+  </table>
+
+
+
+  <script>
+
+    function ubahMenjadiRupiah() {
+      let masukanNilai = document.getElementById('masukanNilai');
+      let valas = document.getElementById('valas');
+      let nilaiRupiah = document.getElementById('rupiah');
+
+      if (valas.value === 'dollar-us') {
+        rupiah.value = masukanNilai.value * 9915;
+      } else if (valas.value === 'dollar-singapore') {
+        rupiah.value = masukanNilai.value * 13472;
+      } else if (valas.value === 'ringgit-malaysia') {
+        rupiah.value = masukanNilai.value * 874;
+      } else if (valas.value === 'yen-jepang') {
+        rupiah.value = masukanNilai.value * 120;
+      } else if (valas.value === 'euro') {
+        rupiah.value = masukanNilai.value * 15888;
+      } else if (valas.value === 'riyal-arab-saudi') {
+        rupiah.value = masukanNilai.value * 3592;
+      }
+    }
+  </script>
+</body>
+
+</html>
+[21.17, 30/12/2021] Indrie: kurs.html
+[21.25, 30/12/2021] Indrie:
+
+<body>
+    <table cellspacing=15>
+        <tr>
+          <td for="username">Username :</td>
+          <td><input id="username" type="text"></td>
+        </tr>
+        <tr>
+          <td for="password">Password :</td>
+          <td><input id="password" type="password"></td>
+        </tr>
+        <tr>
+          <td><button type="submit" onclick="login()">login</button></td>
+        </tr>
+    </table> 
+</body>
+</html

@@ -1,0 +1,42 @@
+.project{
+    margin-top: 5em;
+    margin-left: 8%;
+    position: relative;
+}
+
+.pink{
+    background-color: #f06292;
+    color: #f06292;
+    position: absolute;
+    left: 0%;
+    padding: 170px 50px;
+    border: 2px solid black;
+
+}
+
+.merah{
+    background-color: #ff5252;
+    color: #ff5252;
+    position: absolute;
+    left: 25%;
+    padding: 170px 50px;
+    border: 2px solid black;
+}
+
+.ungu{
+    background-color: #ce93d8;
+    color: #ce93d8;
+    position: absolute;
+    left: 50%;
+    padding: 170px 50px;
+    border: 2px solid black;
+}
+
+.orange{
+    background-color: #ff6f00;
+    color: #ff6f00;
+    position: absolute;
+    left: 75%;
+    padding: 170px 50px;
+    border: 2px solid black;
+}
